@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erdal Mor - Interactive Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="noise"></div>
+    <div class="grid-background"></div>
+    
+    <header>
+        <nav>
+            <div class="nav-brand">EM</div>
+            <div class="menu-btn">
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+        <div class="full-menu">
+            <div class="menu-items">
+                <a href="#home" class="menu-item">Home</a>
+                <a href="#portfolio" class="menu-item">Portfolio</a>
+                <a href="#experience" class="menu-item">Experience</a>
+                <a href="#contact" class="menu-item">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="container">
+                <div class="intro-text">
+                    <h1 class="glitch" data-text="Interactive">Interactive</h1>
+                    <h1 class="glitch" data-text="Developer">Developer</h1>
+                    <p class="subtitle">Creating engaging digital experiences</p>
+                </div>
+                <div class="scroll-cta">
+                    <div class="mouse">
+                        <div class="wheel"></div>
+                    </div>
+                    <div class="arrow"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <div class="container">
+                <h2 class="section-title">Featured Work</h2>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item" data-category="Web Development">
+                        <div class="item-content">
+                            <img src="https://via.placeholder.com/600x400/1a1a1a/ffffff" alt="Project 1">
+                            <div class="item-overlay">
+                                <h3>Interactive Dashboard</h3>
+                                <p>Web Development</p>
+                                <a href="#" class="view-project">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="App Development">
+                        <div class="item-content">
+                            <img src="https://via.placeholder.com/600x400/1a1a1a/ffffff" alt="Project 2">
+                            <div class="item-overlay">
+                                <h3>Mobile Game</h3>
+                                <p>App Development</p>
+                                <a href="#" class="view-project">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="Interactive Design">
+                        <div class="item-content">
+                            <img src="https://via.placeholder.com/600x400/1a1a1a/ffffff" alt="Project 3">
+                            <div class="item-overlay">
+                                <h3>VR Experience</h3>
+                                <p>Interactive Design</p>
+                                <a href="#" class="view-project">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <div class="container">
+                <h2 class="section-title">Experience</h2>
+                <div class="experience-timeline">
+                    <div class="timeline-item">
+                        <div class="year">2023</div>
+                        <div class="content">
+                            <h3>Senior Interactive Developer</h3>
+                            <p>Leading interactive web experiences and mobile applications development.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="year">2021</div>
+                        <div class="content">
+                            <h3>Frontend Developer</h3>
+                            <p>Developing responsive and interactive user interfaces.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="year">2019</div>
+                        <div class="content">
+                            <h3>UI Developer</h3>
+                            <p>Creating engaging user experiences and interfaces.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2 class="section-title">Get in Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Let's create something amazing together</h3>
+                        <p>I'm always open to discussing new projects and creative ideas.</p>
+                        <div class="contact-details">
+                            <a href="mailto:erdal.mor1@egeacademy.ca" class="contact-link">erdal.mor1@egeacademy.ca</a>
+                            <div class="social-links">
+                                <a href="#" class="social-link">GitHub</a>
+                                <a href="#" class="social-link">CodePen</a>
+                                <a href="#" class="social-link">LinkedIn</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Erdal Mor. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
